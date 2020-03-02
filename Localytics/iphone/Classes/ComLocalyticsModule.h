@@ -4,8 +4,8 @@
  * Created by Localytics
  * Copyright (c) 2015-present Localytics. All rights reserved.
  */
-
 #import "TiModule.h"
+
 #import <CoreLocation/CoreLocation.h>
 
 NS_ASSUME_NONNULL_BEGIN

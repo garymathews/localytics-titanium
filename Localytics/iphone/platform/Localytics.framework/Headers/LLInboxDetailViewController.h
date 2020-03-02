@@ -40,4 +40,14 @@
  */
 @property (nonatomic, strong, nullable) UIView *creativeLoadErrorView;
 
+/**
+ * Flag indicating whether delete should be implemented as a navigation item on the detail view controller.
+ */
+@property (nonatomic, assign) BOOL deleteInNavBar;
+
+/**
+ * The string to use to indicate the "Delete" action to the user. The default value is "Delete"
+ */
+@property (nonatomic, strong, nullable) NSString *deleteActionText;
+
 @end

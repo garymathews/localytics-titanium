@@ -10,6 +10,7 @@
 //
 
 #import <Localytics/LLWebViewCampaign.h>
+#import <UIKit/UIKit.h>
 
 /**
  * The campaign class containing information relevant to a single inbox campaign.
@@ -67,5 +68,14 @@
  * True if this inbox campaign was created from a push campaign.
  */
 @property (nonatomic, assign, readonly) BOOL isPushToInboxCampaign;
+
+@property (nonatomic, assign, readwrite) CGFloat videoConversionPercentage;
+
+/**
+ * True if this inbox campaign has been deleted.
+ */
+@property (nonatomic, assign, getter=isDeleted, readonly) BOOL deleted;
+
+- (void)delete;
 
 @end
