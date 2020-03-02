@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <bool name="ll_collect_adid">true</bool>
+    <bool name="ll_collect_android_id">true</bool>
+    <bool name="ll_fcm_push_services_enabled">false</bool>
+    <bool name="ll_gdpr_server_integration">false</bool>
+    <bool name="ll_ignore_standard_event_clv">false</bool>
+    <bool name="ll_live_logging_enabled">true</bool>
+    <bool name="ll_places_background_service_enabled">false</bool>
+    <bool name="ll_places_enabled">false</bool>
+    <bool name="ll_push_tracking_activity_enabled">false</bool>
+    <bool name="ll_referral_receiver_enabled">false</bool>
+    <bool name="ll_use_https">true</bool>
+    <integer name="ll_bad_network_upload_interval_seconds">90</integer>
+    <integer name="ll_decent_network_upload_interval_seconds">30</integer>
+    <integer name="ll_default_places_channel_priority">4</integer>
+    <integer name="ll_default_push_channel_priority">4</integer>
+    <integer name="ll_great_network_upload_interval_seconds">10</integer>
+    <integer name="ll_location_fastest_update_interval_minutes">6</integer>
+    <integer name="ll_location_max_wait_time_minutes">30</integer>
+    <integer name="ll_location_priority">102</integer>
+    <integer name="ll_location_update_interval_minutes">10</integer>
+    <integer name="ll_max_monitoring_regions">100</integer>
+    <integer name="ll_max_region_dwell_time">7</integer>
+    <integer name="ll_min_region_dwell_time">30</integer>
+    <integer name="ll_region_throttle_time">30</integer>
+    <integer name="ll_session_timeout_seconds">15</integer>
+    <integer name="ll_wifi_upload_interval_seconds">5</integer>
+    <string name="ll_analytics_host" translatable="false">analytics.localytics.com</string>
+    <string name="ll_app_key" translatable="false">YOUR_APP_KEY_HERE</string>
+    <string name="ll_default_places_channel_description" translatable="false"/>
+    <string name="ll_default_places_channel_id" translatable="false">localytics_channel</string>
+    <string name="ll_default_places_channel_name" translatable="false">Default</string>
+    <string name="ll_default_push_channel_description" translatable="false"/>
+    <string name="ll_default_push_channel_id" translatable="false">localytics_channel</string>
+    <string name="ll_default_push_channel_name" translatable="false">Default</string>
+    <string name="ll_gcm_sender_id" translatable="false">YOUR_SENDER_ID</string>
+    <string name="ll_live_logs_host" translatable="false">live-device-logging.localytics.com</string>
+    <string name="ll_live_logs_pairing_host" translatable="false">dashboard.localytics.com</string>
+    <string name="ll_manifest_host" translatable="false">manifest.localytics.com</string>
+    <string name="ll_messaging_host" translatable="false">analytics.localytics.com</string>
+    <string name="ll_profiles_host" translatable="false">profile.localytics.com</string>
+    <string name="ll_push_api_host" translatable="false">pushapi.localytics.com</string>
+    <string name="ll_test_devices_host" translatable="false">dashboard.localytics.com</string>
+    <string name="ll_test_push_events_host" translatable="false">dashboard.localytics.com</string>
+</resources>
