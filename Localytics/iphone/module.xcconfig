@@ -7,4 +7,4 @@
 // http://developer.apple.com/mac/library/documentation/DeveloperTools/Conceptual/XcodeBuildSystem/400-Build_Configurations/build_configs.html
 //
 
-OTHER_LDFLAGS=$(inherited) /usr/lib/libsqlite3.dylib /usr/lib/libz.dylib -framework AdSupport -framework SystemConfiguration -framework CoreLocation
+OTHER_LDFLAGS=$(inherited) -lz -framework AdSupport -framework SystemConfiguration -framework CoreLocation
