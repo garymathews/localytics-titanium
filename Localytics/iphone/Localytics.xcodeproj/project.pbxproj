@@ -30,7 +30,6 @@
 		63524B252016C28900EA3E91 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63524B232016C28900EA3E91 /* Foundation.framework */; };
 		63524B262016C28900EA3E91 /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63524B242016C28900EA3E91 /* JavaScriptCore.framework */; };
 		63524B282016C3AF00EA3E91 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63524B272016C3AF00EA3E91 /* CoreLocation.framework */; };
-		63657F1F240DC80600B73AC7 /* TitaniumKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63657F1E240DC80600B73AC7 /* TitaniumKit.framework */; };
 		AA747D9F0F9514B9006C5449 /* ComLocalytics_Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = AA747D9E0F9514B9006C5449 /* ComLocalytics_Prefix.pch */; };
 /* End PBXBuildFile section */
 
@@ -54,7 +53,6 @@
 		63524B232016C28900EA3E91 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		63524B242016C28900EA3E91 /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		63524B272016C3AF00EA3E91 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
-		63657F1E240DC80600B73AC7 /* TitaniumKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TitaniumKit.framework; sourceTree = "<group>"; };
 		AA747D9E0F9514B9006C5449 /* ComLocalytics_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ComLocalytics_Prefix.pch; sourceTree = SOURCE_ROOT; };
 		D2AAC07E0554694100DB518D /* libComLocalytics.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libComLocalytics.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -65,7 +63,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				63524B282016C3AF00EA3E91 /* CoreLocation.framework in Frameworks */,
-				63657F1F240DC80600B73AC7 /* TitaniumKit.framework in Frameworks */,
 				63524B252016C28900EA3E91 /* Foundation.framework in Frameworks */,
 				63524B262016C28900EA3E91 /* JavaScriptCore.framework in Frameworks */,
 				63524B222016C27500EA3E91 /* Localytics.framework in Frameworks */,
@@ -97,7 +94,6 @@
 		0867D69AFE84028FC02AAC07 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				63657F1E240DC80600B73AC7 /* TitaniumKit.framework */,
 				63524B272016C3AF00EA3E91 /* CoreLocation.framework */,
 				63524B232016C28900EA3E91 /* Foundation.framework */,
 				63524B242016C28900EA3E91 /* JavaScriptCore.framework */,
@@ -267,10 +263,7 @@
 					"-DDEBUG",
 					"-DTI_POST_1_2",
 				);
-				OTHER_LDFLAGS = (
-					"-lz",
-					"-ObjC",
-				);
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = ComLocalytics;
 				PROVISIONING_PROFILE = "";
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
@@ -318,10 +311,7 @@
 				INSTALL_PATH = /usr/local/lib;
 				LIBRARY_SEARCH_PATHS = "$(PROJECT_DIR)/lib";
 				OTHER_CFLAGS = "-DTI_POST_1_2";
-				OTHER_LDFLAGS = (
-					"-lz",
-					"-ObjC",
-				);
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = ComLocalytics;
 				RUN_CLANG_STATIC_ANALYZER = NO;
 				SDKROOT = iphoneos;
